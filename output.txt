@@ -1,0 +1,9 @@
+For this project, you will be creating a compression code that can handle any input string of words. You will create a table pairing letters, punctation and other characters with their binary representations. We will call this the compression table. The compression table is the creative part of the project. The goal is to choose binary representations of the input characters that reduce the total bits used to represent the entire string of characters in a given text file.
+You will then use the compression table in two programs written in Python: one to convert text to
+binary and another to decode the binary back to text. The program must be able to handle any
+passage of text containing the characters listed later in this page. The EECS ECS 101 professors
+will choose a common passage and test your code with it. If your compression is 95% accurate or
+better, and its reduction of binary bits (compared 8-bits per character) is 15% or better, you
+will get the full 20 points for the technical deliverables. Furthermore, there will be a prize
+(TBD) for the team with the fewest bits used to accurately compress the file! The full grading
+rubric can be found in page 2.
